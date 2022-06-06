@@ -1,8 +1,7 @@
 #!/bin/bash
-# read -p $'Dictonary Type \e[2m(csv|kobo|stardict)\e[22m: ' user_dict_type # 字典類型
-while ! [[ $user_dict_type =~ (csv|kobo|stardict) ]] 
+while ! [[ $user_dict_type =~ (csv|stardict) ]] 
 do
-    read -p $'Dictonary Type \e[2m(csv|kobo|stardict)\e[22m: ' user_dict_type # 字典類型
+    read -p $'Dictonary Type \e[2m(csv|stardict)\e[22m: ' user_dict_type # 字典類型
 done
 
 while [[ $user_dict_name = '' ]]
