@@ -47,5 +47,13 @@
 * kobo 要用 csv 轉換的話，只能兩欄，一欄單字，一欄註釋，所以 utils/dict.js，就是為了把 cc-cedict 轉換的成想要的格式。
 * 原本想要把 penelope 直接放進來用 python 執行，但發現不是全域安裝的話，會有問題，所以暫時直接放棄。
 
+### Kobo Dict
+載完再自己改名稱，就可以讓 kobo 裡字典列表顯示好看一點。
+目前只看過康熙字典，和僅單字的漢英字典，有任何錯誤，可以再回報。
+* [康熙字典](https://github.com/hsuan9522/kobo-dict/blob/master/kobo/dicthtml-kangxi.zip)
+* [國語辭典](https://github.com/hsuan9522/kobo-dict/blob/master/kobo/dicthtml-moedict.zip)
+* [漢英字典](https://github.com/hsuan9522/kobo-dict/blob/master/kobo/dicthtml-cc.zip)
+* [僅單字的漢英字典](https://github.com/hsuan9522/kobo-dict/blob/master/kobo/dicthtml-mycc.zip)
+
 
 
