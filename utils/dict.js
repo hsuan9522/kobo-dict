@@ -29,7 +29,7 @@ var dict = data
 
 var createCsvWriter = csvwriter.createObjectCsvWriter
 const csvWriter = createCsvWriter({
-    path: path.join(__dirname, '../output/data.csv'),
+    path: path.join(__dirname, '../assets/my-cc-cedict.csv'),
     header: [
         { id: 'char', title: 'character' },
         { id: 'def', title: 'defination' },
