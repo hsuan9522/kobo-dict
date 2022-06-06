@@ -13,6 +13,6 @@ read -p $'Language from \e[2m(default: en)\e[22m: ' user_dict_from
 user_dict_from=${user_dict_from:-en}
 
 read -p $'Language to \e[2m(default: TW)\e[22m: ' user_dict_to
-user_dict_to=${user_dict_to:-TW}
+user_dict_to=${user_dict_to:-zh-TW}
 
 penelope -i ./assets/$user_dict_name -j $user_dict_type -f $user_dict_from -t $user_dict_to -p kobo -o ./kobo/dicthtml-TW-en
