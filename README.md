@@ -20,18 +20,18 @@
 ```
 
 ### 內含字典檔案 (Dictionary)
-* cc-cedict.json   
-    > cc-cedict 完整字典。
+* **cc-cedict**
+    > json 格式的 cc-cedict 字典。
     [來源](https://github.com/SilentByte/cc-cedict-structurizer)
-* stardict-cc-cedict
+* **stardict-cc-cedict**
     > startdict 的 **cc-cedict** 字典。[來源](https://simonwiles.net/projects/cc-cedict/)
-* stardict-cc-cedict
+* **stardict-cc-cedict**
     > startdict 的 **康熙字典**。[來源](https://simonwiles.net/projects/kangxi-zidian/)
-* stardict-moedict
+* **stardict-moedict**
     > startdict 的 **國語辭典**。[來源](https://github.com/elleryq/moe2stardict)
-* my-cc-cedict.csv 
-    > 把 cc-cedict 去除詞語，只剩單字，含拼音和註釋，因為只需單字讀音，還可以加速 kobo 讀取字典的速度。
-    懂中國拼音法的，算是好用的，不用注音，是沒去研究怎麼讓 kobo 顯示注音。
+* **my-cc-cedict**
+    > 把 cc-cedict 去除詞語，只剩單字，含拼音和註釋，因為自己只需要單字讀音，另外這樣還可以加速 kobo 讀取字典的速度。
+    懂中國拼音法的，算好用的。沒弄注音的話，是沒去研究怎麼讓 kobo 顯示注音。
 
 ### 轉換成 kobo 的使用方式 (Use Step)
 簡易用法：
@@ -48,8 +48,10 @@
 * 原本想要把 penelope 直接放進來用 python 執行，但發現不是全域安裝的話，會有問題，所以暫時直接放棄。
 
 ### Kobo Dict
-載完再自己改名稱，就可以讓 kobo 裡字典列表顯示好看一點。
-目前只看過康熙字典，和僅單字的漢英字典，有任何錯誤，可以再回報。
+載完，直接丟入 **.kobo/dict** 或 **.kobo/custom-dict** 即可。<br/>
+前者可能要改到正確的檔名， **-** 後面使用 ISO 639-1 代碼，然後會覆蓋掉預設的字典。<br/>
+後者是 kobo 提供客製化字典檔案放置得位置，名字應該可以亂取，正規的話就是一樣，**-** 後面使用 ISO 639-1 代碼。（還沒試過亂取會顯示什麼）。<br/>
+目前只看過康熙字典和僅單字的漢英字典，有任何錯誤，可以再回報。<br/>
 * [康熙字典](https://github.com/hsuan9522/kobo-dict/blob/master/kobo/dicthtml-kangxi.zip)
 * [國語辭典](https://github.com/hsuan9522/kobo-dict/blob/master/kobo/dicthtml-moedict.zip)
 * [漢英字典](https://github.com/hsuan9522/kobo-dict/blob/master/kobo/dicthtml-cc.zip)
