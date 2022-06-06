@@ -24,9 +24,9 @@
     > cc-cedict 完整字典。
     [來源](https://github.com/SilentByte/cc-cedict-structurizer)
 * stardict-cc-cedict
-    > startdict 的 **cc-cedict** 完整字典。[來源](https://simonwiles.net/projects/cc-cedict/)
+    > startdict 的 **cc-cedict** 字典。[來源](https://simonwiles.net/projects/cc-cedict/)
 * stardict-cc-cedict
-    > startdict 的 **康熙字典** [來源](https://simonwiles.net/projects/kangxi-zidian/)
+    > startdict 的 **康熙字典**。[來源](https://simonwiles.net/projects/kangxi-zidian/)
 * stardict-moedict
     > startdict 的 **國語辭典**。[來源](https://github.com/elleryq/moe2stardict)
 * my-cc-cedict.csv 
