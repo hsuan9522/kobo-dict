@@ -49,8 +49,8 @@
 
 ### Kobo Dict
 載完，直接丟入 **.kobo/dict** 或 **.kobo/custom-dict** 即可。<br/>
-前者可能要改到正確的檔名， **-** 後面使用 ISO 639-1 代碼，然後會覆蓋掉預設的字典。<br/>
-後者是 kobo 提供客製化字典檔案放置得位置，名字應該可以亂取，正規的話就是一樣，**-** 後面使用 ISO 639-1 代碼。（還沒試過亂取會顯示什麼）。<br/>
+前者可能要改到正確的檔名 (dicthtml-xx-xx 或 dicthtml-xx)， **-** 後面使用 ISO 639-1 碼，然後會覆蓋掉預設的字典。<br/>
+後者是 kobo 提供客製化字典檔放的位置，名字應該可以亂取，正規的話就是跟前者的命名方式相同。（還沒試過亂取會顯示什麼）。<br/>
 目前只看過康熙字典和僅單字的漢英字典，有任何錯誤，可以再回報。<br/>
 * [康熙字典](https://github.com/hsuan9522/kobo-dict/blob/master/kobo/dicthtml-kangxi.zip)
 * [國語辭典](https://github.com/hsuan9522/kobo-dict/blob/master/kobo/dicthtml-moedict.zip)
