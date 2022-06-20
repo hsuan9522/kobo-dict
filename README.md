@@ -15,7 +15,7 @@
 │   ├── dicthtml-TW-en.zip
 │  
 ├── README.md
-├── node.sh     // execute node
+├── node.sh     // execute node, turn json to csv
 ├── run.sh      // execute penelope
 ```
 
