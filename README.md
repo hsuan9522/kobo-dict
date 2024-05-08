@@ -30,8 +30,7 @@
 * **stardict-moedict**
     > startdict 的 **國語辭典**。[來源](https://github.com/elleryq/moe2stardict)
 * **my-cc-cedict**
-    > 把 cc-cedict 去除詞語，只剩單字，含拼音和註釋，因為自己只需要單字讀音，另外這樣還可以加速 kobo 讀取字典的速度。
-    懂中國拼音法的，算好用的。沒弄注音的話，是沒去研究怎麼讓 kobo 顯示注音。
+    > 把 cc-cedict 去除詞語，只剩單字，含拼音和註釋，因為這樣還可以加速 kobo 讀取字典的速度。
 
 ### 轉換成 kobo 的使用方式 (Use Step)
 簡易用法：
